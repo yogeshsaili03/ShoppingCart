@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product</title>
+    <link rel="stylesheet" type="text/css" href="product.css">
+    <link rel="stylesheet" type="text/css" href="vendor.css">
+    <script src="jquery.js"></script>
+    <script src="Product.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="header">Enter Product Details</h1>
+        <br>
+        <input type="text" id="productname" name="productname" placeholder="ProductName" required>
+        <br>
+        <select class="drop" id="vendorDropbox"></select>
+        <br>
+        <input type="text" id="productprice" name="productprice" placeholder="Price" required>
+        <br>
+        <input type="text" id="productQ" name="productQ" placeholder="Quantity" required>
+        <br>
+        <button class="button" id="addproduct" name="add">Add Product</button> <button class="button1" id="addVendor"
+            name="add"><span>Add Vendor</span></button> </button> <button class="button20" id="login" name="login">User Login</button><br>
+    </div>
+</body>
+<ul class="listofvendor" id="productlist">
+</ul>
+</body>
+
+</html>
